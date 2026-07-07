@@ -68,13 +68,13 @@ Want the full story? The complete benchmark report is in [docs/BENCHMARK_REPORT.
 Plan (no code yet):
 
 ```text
-Read TRATO.md and plan <task> as specs/<slug>.md. Do not implement yet. Separate explicit requirements, necessary implications, pending assumptions, and out-of-scope items. Walk through errors, edge cases, and constraints and classify each one. Propose at least one verifiable test or proof per acceptance criterion. Leave the spec as Draft and wait for approval.
+Read TRATO.md and plan <task> as specs/<NNNNN>-<slug>.md (zero-padded sequential prefix, next = highest existing + 1, starting at 00001). Do not implement yet. Separate explicit requirements, necessary implications, pending assumptions, and out-of-scope items. Walk through errors, edge cases, and constraints and classify each one. Propose at least one verifiable test or proof per acceptance criterion. Leave the spec as Draft and wait for approval.
 ```
 
 Implement (after approval):
 
 ```text
-Implement specs/<slug>.md following TRATO.md. Only start if the status is Approved. Do not add new scope. If you discover an uncovered decision, update the spec and stop for confirmation when the decision changes behavior. When done, run the relevant checks and fill the proof matrix with real command output.
+Implement specs/<NNNNN>-<slug>.md following TRATO.md. Only start if the status is Approved. Do not add new scope. If you discover an uncovered decision, update the spec and stop for confirmation when the decision changes behavior. When done, run the relevant checks and fill the proof matrix with real command output.
 ```
 
 ## Files

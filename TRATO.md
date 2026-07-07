@@ -11,7 +11,7 @@ Do not implement before a minimal contract exists:
 - criterion -> test/proof matrix;
 - short implementation plan.
 
-Trivial = zero observable behavior change (typo, comment, internal rename, formatting). Only then may the contract be inline in the response or plan. Any observable behavior change requires creating/updating `specs/<slug>.md` from `specs/TEMPLATE.md` (filled example: `specs/EXAMPLE.md`). Diff size does not define triviality; behavior does. When in doubt, treat as non-trivial.
+Trivial = zero observable behavior change (typo, comment, internal rename, formatting). Only then may the contract be inline in the response or plan. Any observable behavior change requires creating/updating `specs/<NNNNN>-<slug>.md` from `specs/TEMPLATE.md` (filled example: `specs/EXAMPLE.md`). The number is the highest existing prefix plus one, zero-padded to five digits, starting at `00001`, so specs stay ordered by creation. `TEMPLATE.md` and `EXAMPLE.md` keep their names and are never numbered. Diff size does not define triviality; behavior does. When in doubt, treat as non-trivial.
 
 Approval gate: do not implement a spec with `Status: Draft`. Present the spec, wait for user approval, and change the status to `Approved` before coding. A user request that already explicitly approves the plan counts as approval.
 
