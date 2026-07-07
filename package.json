@@ -4,6 +4,10 @@
   "description": "Trato — a lean spec-driven pact for coding agents. Scope contract, acceptance criteria, criterion-to-test matrix, and proof of done. Plug and play for Claude Code, Codex, and any AGENTS.md-aware tool.",
   "keywords": ["spec-driven", "agents", "claude-code", "codex", "ai", "sdd", "testing"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelcesardev/trato.git"
+  },
   "bin": {
     "trato": "bin/trato.js"
   },
